@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-// 
+
 
 namespace ClassTestApp
 {
@@ -29,13 +29,15 @@ namespace ClassTestApp
             aaa.Meow();
             aaa.Sleep();
 
-            var kkk = (123,456.345,"aaa",aaa);
+            var kkk = (123,456.345,"aaa",cat:aaa);
             Console.WriteLine(kkk.Item1.GetType()) ;
             Console.WriteLine(kkk.Item2.GetType());
             Console.WriteLine(kkk.Item3.GetType());
            // Console.WriteLine(kkk.Item4.GetType());
             kkk.Item1 ++;
-            
+            kkk.cat.Meow();
+
+            //  Animal ak = new Cat();
 
         }
     }
