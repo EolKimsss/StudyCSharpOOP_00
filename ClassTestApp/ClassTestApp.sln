@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertyTestApp", "Property
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayClassTestApp", "ArrayTestApp\ArrayClassTestApp.csproj", "{67F23220-9024-4DC4-B2D3-75E39AE6F353}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueTestApp", "QueueTestApp\QueueTestApp.csproj", "{36645F4E-08C3-4527-ABCA-8AEF75B7C921}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexerTestApp", "IndexerTestApp\IndexerTestApp.csproj", "{4820DE71-9C71-47AA-BE51-96DBDD2180DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{67F23220-9024-4DC4-B2D3-75E39AE6F353}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67F23220-9024-4DC4-B2D3-75E39AE6F353}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67F23220-9024-4DC4-B2D3-75E39AE6F353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36645F4E-08C3-4527-ABCA-8AEF75B7C921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36645F4E-08C3-4527-ABCA-8AEF75B7C921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36645F4E-08C3-4527-ABCA-8AEF75B7C921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36645F4E-08C3-4527-ABCA-8AEF75B7C921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4820DE71-9C71-47AA-BE51-96DBDD2180DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4820DE71-9C71-47AA-BE51-96DBDD2180DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4820DE71-9C71-47AA-BE51-96DBDD2180DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4820DE71-9C71-47AA-BE51-96DBDD2180DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
