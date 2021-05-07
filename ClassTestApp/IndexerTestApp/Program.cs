@@ -4,10 +4,8 @@ using System.Collections.Generic;
 
 namespace IndexerTestApp
 {
-    class Program : IEnumerable,IEnumerator
+    class Program 
     {
-        public object Current => throw new NotImplementedException();
-
         static void Main(string[] args)
         {
             Console.WriteLine("MyList 예제");
@@ -19,26 +17,18 @@ namespace IndexerTestApp
                 mylist[i] = (i + 1);
             }
 
+            Console.WriteLine("==============for===================");
             for (int i = 0; i < mylist.Length; ++i)
             {
                 Console.WriteLine(mylist[i]);
             }
 
-        }
+            Console.WriteLine("==============foreach===================");
+            foreach (var item in mylist)
+            {
+                Console.WriteLine(item);
+            }
 
-        public IEnumerator GetEnumerator()
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool MoveNext()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Reset()
-        {
-            throw new NotImplementedException();
         }
     }
 }
