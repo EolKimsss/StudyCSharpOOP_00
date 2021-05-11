@@ -20,7 +20,9 @@ namespace DelegateChainApp
             fireWoorim += new ThereIsAFire(station.Escape);
             fireWoorim("우림라이온스밸리A");
             #endregion
-             
+            Calculate calc;
+            calc = (a, b) => a + b;
+            Console.WriteLine(calc(3, 5));
             
         }
     }

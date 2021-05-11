@@ -14,7 +14,8 @@ namespace PropertyTestApp
 
         public int Age
         {
-            get { return age; }
+            //get { return age; }
+            get => this.age;
             set 
             {
                 if (value < 0) age = 1;
